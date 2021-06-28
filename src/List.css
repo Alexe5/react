@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+body * {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.list {
+    display: inline-block;
+}
+
+.list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__text {
+    margin: 0 25px 0 0;
+}
+
+.list__edit {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.list__add {
+    display: flex;
+}
+
+.list__add input {
+    flex-grow: 1;
+}
